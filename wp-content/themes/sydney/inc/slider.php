@@ -82,7 +82,7 @@ function sydney_slider_template() {
                         <div class="contain">
                             <h2 class="maintitle"><?php echo esc_html($slider_title_1); ?></h2>
                             <p class="subtitle"><?php echo esc_html($slider_subtitle_1); ?></p>
-                            </div>
+                        </div>
                     </li>
                		<?php endif; ?>
                		<?php if ( get_theme_mod('slider_image_2', get_template_directory_uri() . '/images/2.jpg') ) : ?>

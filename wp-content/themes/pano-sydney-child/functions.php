@@ -55,33 +55,3 @@ function our_team_function() {
 }
 
 add_shortcode('our_team', 'our_team_function');
-
-function pricing_packages_function() {
-
-	ob_start();
-	?>
-
-	<div class="pricing-packages">
-		<div class="pricing-col">
-			Column 1
-
-		</div>
-
-		<div class="pricing-col">
-			Column 2
-
-		</div>
-
-		<div class="pricing-col">
-			Column 3
-
-		</div>
-	</div>
-	
-	<?php
-		return ob_get_clean();
-
-
-}
-
-add_shortcode('pricing_packages', 'pricing_packages_function');
