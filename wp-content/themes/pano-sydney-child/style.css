@@ -1,0 +1,340 @@
+/*
+ Theme Name:   Panoractives Theme
+ Theme URI:    http://athemes.com/theme/sydney
+ Description:  Sydney Child Theme
+ Author:       Mark Foster
+ Author URI:   http://www.markadamfoster.com
+ Template:     sydney
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-colors, custom-background, custom-header, custom-menu, featured-images, sticky-post, theme-options, threaded-comments, translation-ready
+ Text Domain:  sydney
+*/
+
+
+/* ===================================
+		General
+==================================== */
+
+/* ---- padding ---- */
+/* top */
+.pad-top0 { padding-top: 0; }
+.pad-top5 { padding-top: 5px; }
+.pad-top10 { padding-top: 10px; }
+.pad-top15 { padding-top: 15px; }
+.pad-top20 { padding-top: 20px; }
+.pad-top25 { padding-top: 25px; }
+.pad-top30 { padding-top: 30px; }
+.pad-top35 { padding-top: 35px; }
+.pad-top40 { padding-top: 40px; }
+
+/* bottom */
+.pad-bot0 { padding-bottom: 0; }
+.pad-bot5 { padding-bottom: 5px; }
+.pad-bot10 { padding-bottom: 10px; }
+.pad-bot15 { padding-bottom: 15px; }
+.pad-bot20 { padding-bottom: 20px; }
+.pad-bot25 { padding-bottom: 25px; }
+.pad-bot30 { padding-bottom: 30px; }
+.pad-bot35 { padding-bottom: 35px; }
+.pad-bot40 { padding-bottom: 40px; }
+
+
+/* ---- margin --- */
+.mar-left5 { margin-left: 5px; }
+.mar-left10 { margin-left: 10px; }
+.mar-left15 { margin-left: 15px; }
+.mar-left20 { margin-left: 20px; }
+.mar-left25 { margin-left: 25px; }
+.mar-left30 { margin-left: 30px; }
+
+.mar-right5 { margin-right: 5px; }
+.mar-right10 { margin-right: 10px; }
+.mar-right15 { margin-right: 15px; }
+.mar-right20 { margin-right: 20px; }
+.mar-right25 { margin-right: 25px; }
+.mar-right30 { margin-right: 30px; }
+
+/* top */
+.mar-top0 { margin-top: 0; }
+.mar-top5 { margin-top: 5px; }
+.mar-top10 { margin-top: 10px; }
+.mar-top15 { margin-top: 15px; }
+.mar-top20 { margin-top: 20px; }
+.mar-top25 { margin-top: 25px; }
+.mar-top30 { margin-top: 30px; }
+.mar-top35 { margin-top: 35px; }
+.mar-top40 { margin-top: 40px; }
+.mar-top50 { margin-top: 50px; }
+.mar-top60 { margin-top: 60px; }
+.mar-top70 { margin-top: 70px; }
+.mar-top100 { margin-top: 100px; }
+.mar-top130 { margin-top: 130px; }
+
+/* bottom */
+.mar-bot0 { margin-bottom: 0; }
+.mar-bot5 { margin-bottom: 5px; }
+.mar-bot10 { margin-bottom: 10px; }
+.mar-bot15 { margin-bottom: 15px; }
+.mar-bot20 { margin-bottom: 20px; }
+.mar-bot25 { margin-bottom: 25px; }
+.mar-bot30 { margin-bottom: 30px; }
+.mar-bot35 { margin-bottom: 35px; }
+.mar-bot40 { margin-bottom: 40px; }
+.mar-bot50 { margin-bottom: 50px; }
+.mar-bot60 { margin-bottom: 60px; }
+.mar-bot80 { margin-bottom: 80px; }
+.mar-bot100 { margin-bottom: 100px; }
+
+
+/* Typography */
+
+.widget-area {
+	margin-top: -70px;
+}
+
+h1 { font: 52px/1.1 "Source Sans Pro", sans-serif;}
+h2 { font: 42px/1.1 "Source Sans Pro", sans-serif;}
+h3 { font: 32px/1.1 "Source Sans Pro", sans-serif;}
+h4 { font: 25px/1.1 "Source Sans Pro", sans-serif;}
+h5 { font: 20px/1.1 "Source Sans Pro", sans-serif;}
+h6 { font: 18px/1.1 "Source Sans Pro", sans-serif;}
+
+/* Page Titles (including Blog index page) */
+article.page.type-page .title-post,
+.posts-layout .title-post {
+	font-size: 52px;
+	margin-top: -186px;
+	margin-bottom: 30px;
+  color: #fff;
+}
+
+article p {
+	font-size: 18px;
+	margin: 0 0 24px;
+	line-height: 29px;
+}
+
+article ul li {
+	font-size: 18px;
+}
+
+/* Images */
+
+.img-round { border-radius: 100%; }
+
+/* ===================================
+		Main Nav
+==================================== */
+
+#mainnav ul {
+	margin-top: 22px;
+}
+
+#mainnav .sub-menu {
+	margin-top: 0;
+}
+.site-header {
+	background-color: rgba(0,0,0,0.9);
+	padding: 5px;
+}
+
+.site-logo {
+  max-height: 68px;
+}
+
+/* ===================================
+		Front Page
+==================================== */
+
+/* Header title */
+.text-slider .maintitle, .text-slider .subtitle {
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+/* "What We Do" Section */
+
+.roll-icon-box .content h3, .roll-icon-box .content h3 a {
+    font-size: 1.3em;
+  }
+
+.roll-icon-box .content p {
+	font-size: 16px;
+}
+
+/* "See Our Work" Section */
+
+.roll-promobox {
+	padding: 0;
+}
+
+.roll-promobox .title {
+    font-size: 19px;
+    }
+
+
+/* ===================================
+		Photography Page
+==================================== */
+
+/* Clean up Jetpack Carosel display */
+.jp-carousel-image-meta { display: none; }
+.jp-carousel-titleanddesc { display: none !important; }
+
+/* All Mobile Sizes */
+@media only screen and (max-width: 767px) {
+	.hentry .title-post {
+		font-size: 24px;
+	}
+	article p {
+		font-size: 14px;
+	}
+	.mobile-hide { display: none; }
+}
+
+/* ===================================
+		Pricing Page
+==================================== */
+
+.pricing-col {
+	border: 1px solid red;
+	columns: 300px 3;
+}
+
+/* ===================================
+		Blog
+==================================== */
+
+/* Fix article titles on Blog index page */
+article.post .title-post {
+	margin: 0;
+	font-size: 32px;
+}
+
+/* Remove extra padding on blog view pages */
+.single-post article.post.type-post {
+	margin-top: -75px;
+}
+
+/* ===================================
+		Contact Page
+==================================== */
+
+.contact {
+	font-size: 18px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+
+.contact a {
+	font-size: 1.4em;
+}
+
+.contact.schedule {
+	font-size: 22px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.contact.schedule a {
+	font-size: 1.6em;
+}
+
+/* ===================================
+		About Page
+==================================== */
+
+.our-team-headline {
+	clear: both;
+	text-align: center;
+}
+
+.team-member {
+	text-align: center;
+}
+
+.team-member > .avatar > img {
+	margin: 15px auto 10px auto;
+	height: 120px;
+	width: 120px;
+	border-radius: 50%;
+}
+
+
+.team-member > .name {
+	font-size: 24px;
+}
+
+.team-member > .pos {
+	font-weight: 600;
+}
+
+/* ===================================
+		Widgets
+==================================== */
+
+.widget-area .widget .promo-wrap {
+	padding: 40px 10px;
+	background-image: url('images/schedule-widget.jpg');
+	background-size: cover;
+	border-radius: 5px;
+}
+
+.widget-area .widget .promo-wrap h3 {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+/*.widget-area .widget .promo-wrap h3 span {
+	font-size: 16px;
+}*/
+
+.widget-area .widget .promo-wrap h3,
+#secondary .widget .promo-wrap a.roll-button {
+	color: white;
+}
+
+/* ===================================
+		Scheduler iFrame
+==================================== */
+
+.scheduler iframe {
+  width: 100%;
+  height: 800px;
+}
+
+/* ===================================
+		Media Queries
+==================================== */
+
+@media only screen and (max-width: 767px) {
+	article.page.type-page .title-post,
+	.posts-layout .title-post {
+		font-size: 24px;
+	}
+
+	article p {
+		font-size: 18px;
+	}
+
+	.entry-content {
+		padding-top: 30px;
+	}
+
+	.widget-area .widget:first-child {
+		padding-top: 50px;
+	}
+
+	select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+		padding: 0;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	article p {
+		font-size: 14px;
+		margin: 0 0 24px;
+		line-height: 23px;
+}
+}
