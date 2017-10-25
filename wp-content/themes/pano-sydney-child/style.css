@@ -194,6 +194,33 @@ article ul li {
 }
 
 /* ===================================
+		Pricing Page
+==================================== */
+
+.product-list {
+	margin-top: 50px;
+}
+
+.product {
+	margin-bottom: 130px;
+}
+
+.product-pic {
+	margin: 0 auto;
+}
+
+.product-name {
+	font-size: 32px;
+	font-weight: 600;
+	color: #505050;
+	margin-top: 15px;
+}
+
+.product-desc {
+	margin: 5px 0 0 15px;
+}
+
+/* ===================================
 		Blog
 ==================================== */
 
