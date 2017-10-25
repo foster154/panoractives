@@ -2,6 +2,9 @@
 /*
 !wp-content/
 
+# ignore the plugins directory.
+wp-content/plugins/
+
 # ignore all files starting with .
 .*
 
